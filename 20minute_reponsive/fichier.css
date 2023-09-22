@@ -79,10 +79,17 @@ img[alt=dame]{
 }
 
 /* ******************************************
- * Configuration de la date
- * Disposition de texte
- * Style 
+* Configuration de la date
+* Disposition de texte
+* Style 
 ********************************************* */
+#div2{
+    /* background-color: aquamarine; */
+    height: 60%;
+    max-height: 570px;
+    width: 100%;
+}
+
 #date{
     /* background-color: brown; */
     font-size: small;
@@ -115,22 +122,31 @@ img[alt="c_bar"]{
     bottom: 0;
     height: 100%;
 }
-
-#div2{
-    background-color: aquamarine;
-    height: 60%;
-    max-height: 570px;
-    width: 100%;
-}
-
-
-
+/* ******************************************
+* Configuration du la barre de news
+* DIspositions des éléments
+* Style 
+********************************************* */
 #corps{
-    background-color: wheat;
+    /* background-color: wheat; */
     width: 100%;
     height: 100%;
     display: flex;
 }   
+#asbar{
+    background-color: chartreuse;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-small;
+}
+img[alt="eglise"]{
+    width: 100%;
+}
+
+img[alt="lama"]{
+    width: 100%;
+}
 
 #une{
     background-color: cadetblue;
@@ -157,20 +173,4 @@ img[alt="c_bar"]{
     width: 70%;
 }
 
-#asbar{
-    background-color: chartreuse;
-    /* flex: 1; */
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
-}
-
-#img_par{
-    background-color: azure;
-    /* height: 140px; */
-    height: 33%;
-    /* padding-bottom: 5px; */
-    border-bottom: 2px solid black;
-}
 
