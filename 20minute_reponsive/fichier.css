@@ -79,18 +79,28 @@ img[alt=dame]{
 }
 
 /* ******************************************
- *
- *
- *
- *
+ * Configuration de la date
+ * Disposition de texte
+ * Style 
 ********************************************* */
 #date{
     background-color: brown;
-    /* height: 5%; */
+    font-size: small;
     width: 100%;
-    /* padding-top: 5px; */
-    /* border-top: 5px solid yellow; */
+    text-align: center;
+    position: relative;
+    padding-top: 2px;
+    border-top: 2px solid black;
+    border-radius: 1px;
 }   
+
+.elem_date:nth-child(1){
+    float: left;
+}
+.elem_date:nth-child(3){
+    float: right;
+}
+
 #div2{
     background-color: aquamarine;
     /* height: 70%; */
