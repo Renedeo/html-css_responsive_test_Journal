@@ -28,7 +28,9 @@ body{
  * Disposition 
  * Style 
 ********************************************** */
-.boldstyle {
+.boldstyle 
+,.div_boldstyle 
+{
     font-weight: 900;
     color: #334675;
 }
@@ -131,6 +133,8 @@ img[alt="c_bar"]{
     /* background-color: wheat; */
     width: 100%;
     height: 100%;
+    min-height: 450px;
+    max-height: 450px;
     display: flex;
 }   
 #asbar{
@@ -140,6 +144,10 @@ img[alt="c_bar"]{
     flex-direction: column;
     font-size: xx-small;
 }
+.div_boldstyle{
+    border-top: 1px solid rgba(63, 63, 63, 0.171) ;
+    padding-top: 3px;
+}
 img[alt="eglise"]{
     width: 100%;
 }
@@ -147,6 +155,11 @@ img[alt="eglise"]{
 img[alt="lama"]{
     width: 100%;
 }
+/* ******************************************
+* Fixation de la Taille pub / une
+* DIspositions des éléments
+* Style 
+********************************************* */
 
 #une{
     background-color: cadetblue;
@@ -154,11 +167,9 @@ img[alt="lama"]{
     display: flex;
     flex-direction: column;
 }
-
-#img_jnr{
-    background-color: chocolate;
-    height: 80%;
-    display: flex;
+#prem{
+    background-color: darkgray;
+    width: 100%;
 }
 #pub{
     background-color: crimson;
@@ -166,11 +177,12 @@ img[alt="lama"]{
     height: 20%; 
 }
 
-
-#prem{
-    background-color: darkgray;
-    /* width: 550px; */
-    width: 70%;
+#img_jnr{
+    background-color: chocolate;
+    height: 80%;
+    display: flex;
 }
+
+
 
 
