@@ -9,14 +9,14 @@ body{
 }
 
 #journal{
-    background-color: blueviolet;
+    background-color: whitesmoke;
     height: 100%;
     width: 80%;
     min-width: 350px;
     max-width: 500px;
     padding: 5px;
     border: 0px;
-    box-shadow: -10px 10px 10px;
+    box-shadow: -5px 5px 20px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@ body{
 .entete{
     width: 33%;
     /* background-color: beige;  */
-    border: 2px solid #ccc;
+    /* border: 2px solid #ccc; */
 }
 /*
 PARIS IDF
@@ -76,8 +76,18 @@ img[alt="20min"]{
 }
 img[alt=dame]{
     width: 100%;
+    height: 140px;
     position: absolute;
     bottom: 0;
+}
+/* @media screen and (min-width: 360px) {
+    #T1{
+        font-size:small;
+    }
+    
+} */
+#T1{
+    font-size:small;
 }
 
 /* ******************************************
@@ -138,7 +148,7 @@ img[alt="c_bar"]{
     display: flex;
 }   
 #asbar{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -157,30 +167,47 @@ img[alt="lama"]{
 }
 /* ******************************************
 * Fixation de la Taille pub / une
+* Configuration des élements
 * DIspositions des éléments
 * Style 
 ********************************************* */
 
 #une{
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     width: 95%;
     display: flex;
     flex-direction: column;
 }
-#prem{
-    background-color: darkgray;
-    width: 100%;
-}
-#pub{
-    background-color: crimson;
-    /* flex: 1; */
-    height: 20%; 
-}
-
 #img_jnr{
-    background-color: chocolate;
+    /* background-color: chocolate; */
     height: 80%;
     display: flex;
+}
+/* ******************************************
+* Configuration des élements
+* Ajout des éléments
+* Style 
+********************************************* */
+#prem{
+    /* background-color: darkgray; */
+    width: 100%;
+    padding-left: 1%;
+    
+}
+img[alt="prem"]{
+    width: 100%;
+    height: 100%;
+}
+#pub{
+    /* background-color: crimson; */
+    height: 20%;
+    margin-top: 2px;
+    padding-top: 2px;
+    border-top: 2px solid black; 
+}
+img[alt="pub"]{
+    width: 100%;
+    height: 80px;
 }
 
 
