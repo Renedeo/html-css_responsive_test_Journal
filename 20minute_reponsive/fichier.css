@@ -22,8 +22,18 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+
+/* ******************************************* 
+ * Configuration de l'entete
+ * Disposition 
+ * Style 
+********************************************** */
+.boldstyle {
+    font-weight: 900;
+    color: #334675;
+}
 #div1{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 20%;
     min-width: 150px;
     max-width: 500px;
@@ -31,15 +41,31 @@ body{
     max-height: 170px;
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 0 1% 0;
 }
 .entete{
     width: 33%;
-    background-color: beige; 
+    /* background-color: beige;  */
     border: 2px solid #ccc;
 }
+/*
+PARIS IDF
+20 Minute Avec
+*/
+.Avec{
+    background-color: #334675;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    color: aliceblue;
+}
+
+.entete:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
 img[alt="20min"]{
-    height: 80%;
+    height: 90%;
     width: 100%;
 }
 
@@ -52,6 +78,12 @@ img[alt=dame]{
     bottom: 0;
 }
 
+/* ******************************************
+ *
+ *
+ *
+ *
+********************************************* */
 #date{
     background-color: brown;
     /* height: 5%; */
