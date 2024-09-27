@@ -1,0 +1,234 @@
+
+body{
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#journal{
+    background-color: whitesmoke;
+    height: 100%;
+    
+    width: 80%;
+    min-width: 350px;
+    max-width: 500px;
+    padding: 5px;
+    border: 0;
+    box-shadow: -10px -20px 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ******************************************* 
+ * Configuration de l'entete
+ * Disposition 
+ * Style 
+********************************************** */
+.boldstyle 
+,.div_boldstyle 
+{
+    font-weight: 900;
+    color: #334675;
+}
+#div1{
+    /* background-color: aquamarine; */
+    height: 20%;
+    min-width: 150px;
+    max-width: 500px;
+    min-height: 170px;
+    max-height: 170px;
+    display: flex;
+    margin: 0;
+    padding: 0 1% 0;
+}
+.entete{
+    width: 33%;
+    /* background-color: beige;  */
+    /* border: 2px solid #ccc; */
+}
+/*
+PARIS IDF
+20 Minute Avec
+*/
+.Avec{
+    background-color: #334675;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    color: aliceblue;
+}
+
+.entete:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+img[alt="20min"]{
+    height: 90%;
+    width: 100%;
+}
+
+.entete:nth-child(2){
+    position: relative;
+}
+img[alt=dame]{
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    bottom: 0;
+}
+
+#T1{
+    font-size: 1em;
+}
+@media (width < 600px) {
+    #T1{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .Avec{
+        font-size: .7em;
+    }
+}
+@media (width < 550px) {
+    #T1{
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+}
+.entete:nth-child(3){
+    padding-left: 1px;
+}
+
+/* ******************************************
+* Configuration de la date
+* Disposition de texte
+* Style 
+********************************************* */
+#div2{
+    /* background-color: aquamarine; */
+    height: 60%;
+    max-height: 570px;
+    width: 100%;
+}
+
+#date{
+    /* background-color: brown; */
+    font-size: xx-small;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-top: 3px;
+    padding-top: 2px;
+    border-top: 2px solid black;
+    border-radius: 1px;
+}   
+
+.elem_date:nth-child(1){
+    float: left;
+}
+.elem_date:nth-child(3){
+    float: right;
+}
+/* ******************************************
+* Configuration du code barre
+* Ajout du code barre
+* Style 
+********************************************* */
+#cbar{
+    position: relative;
+    /* background-color: blue; */
+    width: 5%;
+}
+img[alt="c_bar"]{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+}
+/* ******************************************
+* Configuration du la barre de news
+* DIspositions des éléments
+* Style 
+********************************************* */
+#corps{
+    /* background-color: wheat; */
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+    max-height: 450px;
+    display: flex;
+}   
+#asbar{
+    /* background-color: chartreuse; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    font-size: .5em;
+}
+.div_boldstyle{
+    border-top: 1px solid rgba(63, 63, 63, 0.171) ;
+    padding-top: 3px;
+}
+img[alt="eglise"]{
+    width: 100%;
+}
+
+img[alt="lama"]{
+    width: 100%;
+}
+/* ******************************************
+* Fixation de la Taille pub / une
+* Configuration des élements
+* DIspositions des éléments
+* Style 
+********************************************* */
+
+#une{
+    /* background-color: cadetblue; */
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+#img_jnr{
+    /* background-color: chocolate; */
+    height: 80%;
+    display: flex;
+}
+/* ******************************************
+* Configuration des élements
+* Ajout des éléments
+* Style 
+********************************************* */
+#prem{
+    /* background-color: darkgray; */
+    width: 100%;
+    padding-left: 1%;
+    
+}
+img[alt="prem"]{
+    width: 100%;
+    height: 100%;
+}
+#pub{
+    /* background-color: crimson; */
+    height: 20%;
+    margin-top: 2px;
+    padding-top: 2px;
+    border-top: 2px solid black; 
+}
+
+img[alt="pub"]{
+    width: 100%;
+    height: 80px;
+}
+
+
+
+
+

@@ -1,0 +1,91 @@
+
+body {
+    padding: 50px;
+}
+/* Document  */
+#min{
+    display: flex;
+    overflow: hidden;
+    width: 750px;
+    height: 1000px;
+    
+}
+
+/* Code barre */
+#bcode{
+    width: 40px;
+    height: 1050px;
+}
+/* Tous excepté le code barre */
+#global {
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 655px;
+    /* padding: 10px; */
+}
+
+/* Entete */
+#hd{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.header {
+    position: relative;
+    margin: 0;
+    padding: 0 0 5px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+
+
+
+
+/* Gestion de la date et du numéro */
+#date{
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#rg{
+    float: left;
+}
+
+#lt{
+    float: right;
+}
+/* Style 
+    ......
+*/
+
+/* Gestion des infos */
+#corps{
+    display: flex;
+    font-size: small;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    /* background-color: aquamarine; */
+
+}
+
+#asidebar{
+    font-family:none;
+    font-size: 1rem;
+    font-weight: 550;
+    width: 185px;
+    padding-right: 5px;
+}
+
+
+/* Style */
+
+/* pied de la page */
+
+
+#foot{
+    /* background-color: blanchedalmond; */
+    margin-top: 5px;
+    margin-left: 2px;  
+    }

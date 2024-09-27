@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#bcode {
+    position: relative;
+    bottom: 50px;
+}
+img[alt="code barre texte"] {
+    position: absolute;
+    bottom: 0;
+}
+
+#Avec,
+#Avec1 {
+    background-color: rgb(17, 17, 119);
+    color: white;
+    text-align: center;
+    font-weight: 1000;
+    display: inline-block;
+    width: 200px;
+}
+
+#minavec {
+    font-size: 1.3rem;
+
+}
+
+.boldstyle {
+    font-weight: 900;
+    color: #334675;
+}
+
+#date {
+    font-size: small;
+    text-align: center;
+
+}
+
+#lama {
+    border-top: 2px solid #ccc;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+#eglise {
+    margin-top: 15px;
+}
+
+img[alt="dame"] {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+img[alt="logo"] {
+    height: 180px;
+    width: 150px;
+}
+#Avec1 {
+    width: 150px;
+    font-size: small;
+}
+
+
+img[alt="pub"] {
+    width: 650px;
+}
+img[alt="une"]{
+    display:block;
+    height: 610px;
+    width: 475px;
+}
+
+
+#Avec {
+    width: 100%;
+}
+
+
+#img20 {
+    flex: 1;
+}
+
+#dame {
+    flex: .5;
+}
+
+#perso {
+    flex: 1;
+}
+#texte1{
+    margin: 0;
+    font-size: larger;
+}
